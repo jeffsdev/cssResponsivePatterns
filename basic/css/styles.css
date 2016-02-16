@@ -1,0 +1,50 @@
+/* For testing only */
+
+*:not(body):not(html) {
+  box-sizing: border-box;
+  border: 1px dashed #000;
+}
+
+.columns {
+  min-height: 100px;
+}
+
+
+/* End for testing */
+
+body {
+  margin: 0;
+}
+
+header {
+  background: #aaa;
+  padding: 5%;
+}
+
+main {
+  margin: 10% 2%;
+}
+
+main img {
+  max-width: 100%;
+  margin-bottom: 2%;
+}
+
+@media screen and (min-width: 600px) {
+  main {
+    overflow: auto;
+    margin: 9% 2%;
+  }
+  main img {
+    float: left;
+    width: 48%;
+    margin: 1%;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  main img {
+    margin: 1.5%;
+    width: 30.33%;
+  }
+}
