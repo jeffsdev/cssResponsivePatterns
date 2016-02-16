@@ -1,0 +1,93 @@
+/* For testing only */
+
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+
+.columns {
+  min-height: 100px;
+}
+
+/* End for testing */
+body {
+  margin: 0;
+}
+
+.wrap {
+  width: 90%;
+  margin: auto;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px 0 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+header p {
+  text-align: center;
+  font-size: 3em;
+}
+
+main section img {
+  max-width: 100%;
+}
+
+main section h3 {
+  padding: 15px 0;
+}
+
+main section {
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    overflow: auto;
+  }
+
+  header h1 {
+    float: left;
+  }
+
+  nav {
+    float: right;
+    padding: 2em;
+    margin-right: 20%;
+  }
+  header p {
+    margin-top: 1.82em;
+  }
+  section {
+    width: 48%;
+    float: left;
+    margin: 1%;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  header h1 {
+    font-size: 3em;
+  }
+  nav {
+    margin-right: 5%;
+  }
+  header p {
+    font-size: 5em;
+  }
+
+  section {
+    width: 23%;
+  }
+}
