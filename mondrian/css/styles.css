@@ -233,11 +233,12 @@ main section:last-child p {
     margin-bottom: 1.5vh;
   }
   main {
-    width: 28.8vw;
+    width: 28.5vw; /*leaves white margin to the left of main*/
     height: 100vh;
     display: block;
     float: right;
   }
+
   .imageDiv img {
     display: inline-block;
     width: 100vw;
